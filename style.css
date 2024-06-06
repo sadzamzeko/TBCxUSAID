@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #1A1E1F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    /* margin: 0 auto; */
+    font-size: 20px;
+    /* margin-bottom: 120px; */
+    /* background: transparent; */
+}
+
+header ul {
+    display: flex;
+}
+
+nav ul li a {
+    font-size: 17px;
+    /* color:white; */
+    margin-right: 40px;
+
+}
+
+.active-link {
+    color: #00A3E0;
+}
+main {
+    /* margin-top: 30px; */
+    padding-top: 90px;
+    background-color: #2B2B2B;
+}
+
+.mainImg img {
+    position: relative;
+}
+
+.mainImgText {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    /* color: white; */
+    font-weight: bolder;
+}
+
+.mainImg p {
+    /* background-color: blue; */
+    font-size: 28px;
+
+}
+.mainImgText h1{
+    font-size: 40px;
+    /* text-shadow: 2px 2px #161616; */
+}
+.aboutUsaid {
+    /* color: white; */
+    width: 50%;
+    margin: 50px auto;
+    font-size: 28px;
+}
+
+.aboutUsaid a {
+    color: #00A3E0;
+}
+section {
+    background-color: #161616;
+    /* color: white; */
+    padding: 40px 0;
+}
+
+.box1 {
+    width: 50%;
+    margin: 50px auto;
+    padding-top: 40px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box1Content {
+    margin-top: 40px;
+    border: 2px solid #555555;
+    border-radius: 7px;
+}
+
+.box1Text {
+    margin-left: 20px;
+}
+
+.box1Text h3 {
+    margin: 30px 0;
+}
+
+.box1Text p {
+    margin-bottom: 50px;
+}
+
+.aboutCour {
+    margin: 30px 0;
+}
+
+.aboutCour a {
+    color: #00A3E0;
+
+}
+.aboutCour path{
+    fill: #00A3E0;
+}
+
+.parent-slider {
+    position: relative;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    margin-top: 40px;
+    position: relative;
+    background: transparent;
+    height: 250px;
+    width: 100%;
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    /* padding: 80px; */
+    /* text-align: center; */
+
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 10px;
+    border-radius: 3px 0 3px 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    /* background: #ddd; */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+/* .active, .dot:hover {
+      background-color: #717171;
+    } */
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+    color: cornflowerblue;
+}
+
+.sliderbox {
+    width: 50%;
+    margin: 40px auto;
+}
+
+
+.sliderImg {
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: wrap;  */
+    justify-content: space-between;
+    /* text-align-last: center; */
+    /* justify-content: ; */
+    /* margin: 0 auto; */
+    /* text-align: center;
+        vertical-align:middle; */
+    margin-top: 80px;
+}
+
+.lastSlider img {
+    /* text-align: center;  */
+    margin: 0 auto;
+}
+
+
+/* ----- */
+
+footer {
+    background-color: #1A1E1F;
+    padding: 50px 0;
+}
+
+.footerBox {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li:nth-child(2) {
+    margin: 30px 0;
+}
+
+.footIcon {
+    display: flex;
+    justify-content: end;
+}
+
+.footIcon a:nth-child(1) {
+    margin-right: 10px;
+}
+
+.social-icon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textUs {
+    font-size: 18px;
+    display: block;
+    background-color: #00A3E0;
+    border: 2px solid #00A3E0;
+    border-radius: 7px;
+    padding: 5px 30px;
+    margin-top: 40px;
+}
+
+.textUs:hover {
+    background-color: #D5D5D5;
+    color: #353131;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
