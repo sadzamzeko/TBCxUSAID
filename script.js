@@ -108,15 +108,15 @@ document.addEventListener("DOMContentLoaded", function () {
      const slidesData = [
         {
             title: "პროექტის პარტნიორები",
-            images: ["usaid.png", "space.png", "tnet.png"]
+            images: ["images/usaid.png", "images/space.png", "images/tnet.png"]
         },
         {
             title: "პროექტის პარტნიორები",
-            images: ["tegeta.png", "spectre.png", "tbcliz.png"]
+            images: ["images/tegeta.png", "images/spectre.png", "images/tbcliz.png"]
         },
         {
             title: "პროექტის პარტნიორები",
-            images: ["ufc.png"]
+            images: ["images/ufc.png"]
         }
     ];
 
@@ -196,4 +196,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
 });
