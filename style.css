@@ -21,9 +21,7 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 90px;
-    /* margin: 0 auto; */
     font-size: 20px;
-    /* margin-bottom: 120px; */
     /* background: transparent; */
 }
 
@@ -33,7 +31,6 @@ header ul {
 
 nav ul li a {
     font-size: 17px;
-    /* color:white; */
     margin-right: 40px;
 
 }
@@ -42,7 +39,6 @@ nav ul li a {
     color: #00A3E0;
 }
 main {
-    /* margin-top: 30px; */
     padding-top: 90px;
     background-color: #2B2B2B;
 }
@@ -55,21 +51,17 @@ main {
     position: absolute;
     top: 200px;
     left: 500px;
-    /* color: white; */
     font-weight: bolder;
 }
 
 .mainImg p {
-    /* background-color: blue; */
     font-size: 28px;
 
 }
 .mainImgText h1{
     font-size: 40px;
-    /* text-shadow: 2px 2px #161616; */
 }
 .aboutUsaid {
-    /* color: white; */
     width: 50%;
     margin: 50px auto;
     font-size: 28px;
@@ -80,7 +72,6 @@ main {
 }
 section {
     background-color: #161616;
-    /* color: white; */
     padding: 40px 0;
 }
 
@@ -143,8 +134,6 @@ section {
 /* Slides */
 .mySlides {
     display: none;
-    /* padding: 80px; */
-    /* text-align: center; */
 
 }
 
@@ -185,7 +174,6 @@ section {
 .dot-container {
     text-align: center;
     padding: 20px;
-    /* background: #ddd; */
 }
 
 /* The dots/bullets/indicators */
@@ -222,26 +210,83 @@ q {
 
 
 .sliderImg {
-    /* background-color: red; */
     display: flex;
-    /* justify-content: center; */
-    /* flex-wrap: wrap;  */
     justify-content: space-between;
-    /* text-align-last: center; */
-    /* justify-content: ; */
-    /* margin: 0 auto; */
-    /* text-align: center;
-        vertical-align:middle; */
     margin-top: 80px;
 }
 
 .lastSlider img {
-    /* text-align: center;  */
     margin: 0 auto;
 }
 
 
-/* ----- */
+article {
+    background-color: #161616;
+
+}
+
+.articlBox {
+    width: 50%;
+    margin: 20px auto 0;
+    padding: 70px 0;
+}
+
+.articleText1 {
+    font-size: 27px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.articleText1 a {
+    color: #00A3E0;
+}
+.questions{
+    margin: 50px 0; 
+}
+hr{
+    border: 1px solid #353131;
+    margin: 30px 0;
+}
+.accordion {
+    background-color: #161616;
+
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    
+}
+.middle-acc{
+    /* margin: 50px 0; */
+}
+
+.active,
+.accordion:hover {
+    /* background-color: #ccc; */
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+}
+.acordText{
+    margin: 30px 0;
+
+}
+.indentText{
+    padding: 0 0 30px 20px;
+} 
+.questTwo , .questThree{
+    padding: 20px 0;
+}
+.articlepath{
+    fill: white;
+}
+
 
 footer {
     background-color: #1A1E1F;
@@ -289,76 +334,4 @@ footer li:nth-child(2) {
     color: #353131;
     border: 1px solid black;
     border-radius: 7px;
-}
-article {
-    background-color: #161616;
-
-}
-
-.articlBox {
-    width: 50%;
-    margin: 20px auto 0;
-    padding: 70px 0;
-}
-
-.articleText1 {
-    font-size: 27px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-
-.articleText1 a {
-    color: #00A3E0;
-}
-.questions{
-    margin: 50px 0; 
-}
-hr{
-    border: 1px solid #353131;
-    margin: 30px 0;
-}
-.accordion {
-    /* background-color: #eee;
-    color: #444; */
-    background-color: #161616;
-
-    cursor: pointer;
-    /* padding: 18px; */
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 20px;
-    transition: 0.4s;
-    
-}
-.middle-acc{
-    /* margin: 50px 0; */
-}
-
-.active,
-.accordion:hover {
-    /* background-color: #ccc; */
-}
-
-.panel {
-    /* padding: 0 18px; */
-    display: none;
-    /* background-color: white; */
-    overflow: hidden;
-}
-.acordText{
-    margin: 30px 0;
-    /* text-align: justify; */
-
-}
-.indentText{
-    padding: 0 0 30px 20px;
-} 
-.questTwo , .questThree{
-    padding: 20px 0;
-}
-.articlepath{
-    fill: white;
 }
