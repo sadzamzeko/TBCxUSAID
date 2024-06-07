@@ -1,5 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    const navBarIcon = document.querySelector('.nav-bar-icon');
+        const nav = document.querySelector('nav');
+
+        navBarIcon.addEventListener('click', function() {
+            nav.classList.toggle('active');
+        });
+
     var courses = [
         {
             imgSrc: "images/ios.jpg",
